@@ -1,12 +1,9 @@
-# Issues Observed
-
-- `Location` has only 6,735 non-null values out of 10,000, meaning 3,265 values are missing.
-- `Payment Method` has only 7,421 non-null values out of 10,000, meaning 2,579 values are missing.
-- The first five rows contain `UNKNOWN` values in both `Payment Method` and `Location`, suggesting that placeholders are being used in addition to null values.
-- `Transaction Date` has 159 missing values, and `UNKNOWN` is also its most frequent displayed value, appearing 159 times.
-- `Item` has 333 missing values.
-- `Price Per Unit` has 179 missing values, even though it is needed to calculate transaction value.
-- `Total Spent` has 173 missing values, even though it is the proposed target variable.
-- `Quantity` has 138 missing values.
-- `Quantity`, `Price Per Unit`, and `Total Spent` were loaded as text rather than numeric data types.
-- `Transaction Date` was loaded as text rather than as a date data type.
+1. The `Location` column has a large number of missing values: only 6,735 of 10,000 rows are non-null.
+2. The `Payment Method` column has many missing values: only 7,421 of 10,000 rows are non-null.
+3. The `Total Spent` column contains the text value `ERROR`, even though it should represent a monetary amount.
+4. The `Transaction Date` column contains the unexpected category `UNKNOWN`, which is not a valid date.
+5. The `Item` column contains `UNKNOWN` values and missing values instead of identifiable product names.
+6. The `Payment Method` column contains `UNKNOWN` and `ERROR` values, which are not valid payment methods.
+7. The `Location` column contains `UNKNOWN` values in addition to missing values, although the observed valid categories appear to be `Takeaway` and `In-store`.
+8. The `Quantity`, `Price Per Unit`, `Total Spent`, and `Transaction Date` columns were all loaded as strings rather than numeric or date types.
+9. The `Total Spent` column has 19 unique text values, suggesting that invalid entries or inconsistent representations may be present in a field expected to contain calculated monetary totals.

@@ -1,20 +1,12 @@
-# Data Source Classification
+Part B
+1. the data is structured.
+itr is organzied into raw and columns which create the structure.
+2. transaction id represents the unqiue number given to product. 
+   item refers to a product that has been purchased.
+   Quantity refers to the number of units of a particular product sold.
+   Total spent refers to the amount spent on a specific quantity of products.
+   Payment method refers to the method of payment.
+   Location refers to how the the consumer received a product.
+   Transaction date refers to when a products were purchased.
+3. the target is total spent and location, quantity , payment method , transaction date would the candidate features.
 
-The café sales dataset is **structured data** because it is arranged in a table with a consistent set of named columns, and each row represents one transaction. Although some values are missing or suspicious, the dataset still follows a fixed row-and-column structure.
-
-## Variables
-
-- **Transaction ID:** A unique identifier for each sales transaction.
-- **Item:** The café product purchased.
-- **Quantity:** The number of units purchased in the transaction.
-- **Price Per Unit:** The price charged for one unit of the item.
-- **Total Spent:** The total amount spent in the transaction.
-- **Payment Method:** The method used to pay, such as cash, credit card, or digital wallet.
-- **Location:** Whether the purchase was made in-store or as takeaway.
-- **Transaction Date:** The date on which the transaction occurred.
-
-## Target and Candidate Features
-
-The proposed **target variable** is **Total Spent**, because a useful modelling task would be to predict the total value of a transaction.
-
-Candidate **features** are **Item**, **Quantity**, **Price Per Unit**, **Payment Method**, **Location**, and **Transaction Date**. **Transaction ID** is an identifier rather than a meaningful predictive feature, so it would normally not be used as a feature.
