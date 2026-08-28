@@ -1,0 +1,22 @@
+#%%
+import csv
+import random
+from datetime import datetime, timedelta
+
+
+# %%
+random.seed(42)
+
+## creating an empty  ##
+
+rows = []
+base_date = datetime(2020,1,1)
+
+for i in range(1000):
+    row = {
+        "id" : i if random.random() > 0.02 else i-1,
+        "date" : (base_date + timedelta(days=random.randint(0, 1000))).strftime("%Y-%m-%d") if random.random > 0.03 else "2020-14-50"
+
+
+    }
+# %%

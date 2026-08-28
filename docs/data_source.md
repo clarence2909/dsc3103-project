@@ -1,6 +1,6 @@
 Part B
 1. the data is structured.
-itr is organzied into raw and columns which create the structure.
+it is organzied into raw and columns which create the structure.
 2. transaction id represents the unqiue number given to product. 
    item refers to a product that has been purchased.
    Quantity refers to the number of units of a particular product sold.
