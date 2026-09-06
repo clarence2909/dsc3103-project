@@ -10,3 +10,4 @@ it is organzied into raw and columns which create the structure.
    Transaction date refers to when a products were purchased.
 3. the target is total spent and location, quantity , payment method , transaction date would the candidate features.
 
+
