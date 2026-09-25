@@ -1,0 +1,27 @@
+2026-09-25 12:55:23 | INFO| === Ppeline run started ===
+2026-09-25 12:55:23 | INFO| Stage 1: Ingesting source a
+2026-09-25 12:55:23 | INFO| Stage 11: Source a Ingested rows out: 1010
+2026-09-25 12:55:23 | INFO| Stage 2: Ingesting source b
+2026-09-25 12:55:23 | INFO| Stage 22: Source b Ingested rows out: 728
+2026-09-25 12:55:23 | INFO| stage 3: Cleaning source a...
+2026-09-25 12:55:23 | INFO| stage 33: Source a cleaned rows in: 889 | rows out: 889 | decisions made: 6
+2026-09-25 12:55:23 | INFO| Stage 4: Merging Price and Rainfall
+2026-09-25 12:55:23 | INFO| Stage 44: Merged rows out: 259
+2026-09-25 13:00:52 | INFO| === Ppeline run started ===
+2026-09-25 13:00:52 | INFO| Stage 1: Ingesting source a
+2026-09-25 13:00:52 | INFO| Stage 11: Source a Ingested rows out: 1010
+2026-09-25 13:00:52 | INFO| Stage 2: Ingesting source b
+2026-09-25 13:00:52 | INFO| Stage 22: Source b Ingested rows out: 728
+2026-09-25 13:00:52 | INFO| stage 3: Cleaning source a...
+2026-09-25 13:00:52 | INFO| stage 33: Source a cleaned rows in: 889 | rows out: 889 | decisions made: 6
+2026-09-25 13:00:52 | INFO| Stage 4: Merging Price and Rainfall
+2026-09-25 13:00:52 | INFO| Stage 44: Merged complete : rows in: 259,rows out: 259
+2026-09-25 13:03:28 | INFO| === Ppeline run started ===
+2026-09-25 13:03:28 | INFO| Stage 1: Ingesting source a
+2026-09-25 13:03:28 | INFO| Stage 11: Source a Ingested rows out: 1010
+2026-09-25 13:03:28 | INFO| Stage 2: Ingesting source b
+2026-09-25 13:03:28 | INFO| Stage 22: Source b Ingested rows out: 728
+2026-09-25 13:03:28 | INFO| stage 3: Cleaning source a...
+2026-09-25 13:03:28 | INFO| stage 33: Source a cleaned rows in: 889 | rows out: 889 | decisions made: 6
+2026-09-25 13:03:28 | INFO| Stage 4: Merging Price and Rainfall
+2026-09-25 13:03:28 | INFO| Stage 44: Merged complete : rows in: 259,rows out: 259

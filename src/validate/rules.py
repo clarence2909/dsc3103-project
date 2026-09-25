@@ -23,6 +23,16 @@ def rule_valid_date(df):
     invalid_dates["Reason"] = "Invalid date"    
     return invalid_dates
 
+def rule_valid_date_format(df):
+    return rule_valid_date(df)
+
+
+def rule_negative_rain(df):
+    negative_rain = df[df["rainfall"] < 0].copy()
+    negative_rain["Reason"] = "Negative rainfall"
+    return negative_rain
+
+
 def rule_missing_market(df):
     missing_market = df[df["market"]=="none"].copy()
     missing_market["Reason"] = "Missing market"
